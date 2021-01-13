@@ -22,7 +22,7 @@ micronaut {
 }
 
 dependencies {
-    compile('com.google.cloud:google-cloud-graalvm-support:0.1.0')
+    compileOnly('com.google.cloud:google-cloud-graalvm-support:0.2.0')
 
     implementation("io.micronaut:micronaut-validation")
     implementation("io.micronaut:micronaut-runtime")
